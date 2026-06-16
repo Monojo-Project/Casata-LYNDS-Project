@@ -4,7 +4,7 @@
     "version":     "v1.0.0",
     "description": "Free Software",
     "license":     "GPL License",
-    "copyright":   "© 2026 LyndsOS, David Baña",
+    "copyright":   "© 2026 Lynds Corp, David Baña",
     "window": {
       "size":    "1336x768",
       "minsize": [900, 600]
@@ -50,6 +50,7 @@
     "tag_fg":       "#4338CA",
     "green":        "#059669",
     "amber":        "#D97706",
+    "blue":         "#2563EB",
     "red":          "#DC2626",
     "avatar_fg":    "white",
     "pink":         "#EC4899",
