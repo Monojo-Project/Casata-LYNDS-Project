@@ -1,2 +1,2 @@
-# Casata-LYNDS-Project
-Apps de LYNDS Project para Casata.
+# LyndsFetch
+Fetch de Lynds
