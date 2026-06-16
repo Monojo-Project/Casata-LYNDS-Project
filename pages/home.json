@@ -5,13 +5,13 @@
   },
   "hero": {
     "title": "LyndsHub",
-    "description": "Un hub profesional y open-source de información y documentación de proyectos.\nAquí tenemos información sobre LyndsOS.",
-    "tags": ["Open Source", "MIT License", "v1.0.0", "Python · Tkinter"]
+    "description": "Un hub profesional y software libre de información y documentación de proyectos.\nAquí tenemos reunida toda la información necesaria.",
+    "tags": ["Free Software", "GPL License", "v1.0.0", "Python · Tkinter"]
   },
   "stats": [
-    { "value": "4", "label": "Contribuidores", "color": "accent" },
+    { "value": "9", "label": "Contribuidores", "color": "accent" },
     { "value": "1.0.0", "label": "Versión del OS", "color": "red" },
-    { "value": "MIT", "label": "Licencia", "color": "amber" },
+    { "value": "GPL", "label": "Licencia", "color": "blue" },
     { "value": "Open", "label": "Código Fuente", "color": "green" }
   ],
   "social_section_title": "Nuestra Presencia Digital",
@@ -44,7 +44,7 @@
   "quick_links_title": "Navegación Rápida",
   "quick_links": [
     { "label": "📄 Documentación", "page": "docs", "description": "Lee la documentación completa" },
-    { "label": "🖥️ Info del OS", "page": "osinfo", "description": "Información del sistema" },
+    { "label": "🖥️ Info del SO", "page": "osinfo", "description": "Información del sistema" },
     { "label": "👥 Créditos", "page": "credits", "description": "Conoce al equipo" },
     { "label": "📚 Guías", "page": "guides", "description": "Muchas guías para resolver dudas del SO" }
   ]
