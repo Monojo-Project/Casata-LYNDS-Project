@@ -9,8 +9,7 @@ from datetime import datetime
 from pathlib import Path
 import webbrowser
 
-DATA_ROOT = Path("/usr/local/LyndsHub")
-# /usr/local/casata/apps/lyndshub
+DATA_ROOT = Path("/usr/local/casata/apps/lyndshub")
 
 def load_json(relative_path: str) -> dict | list:
     full_path = DATA_ROOT / relative_path
