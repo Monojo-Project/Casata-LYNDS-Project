@@ -26,6 +26,6 @@ Hice este código para añadirlo como aplicación en mi sistema operativo LyndsO
 
 Por cierto, todas las configuraciones base (para que las modifiques) tienen humor + real, asi que te puedes reir un poco.
 
-### —Creado por David Baña.
+### Repositorio de Lynds Wallpapers: https://github.com/Monojo-Project/Lynds-Wallpapers
 
-## EL CODIGO ESTÁ EN FASE BETA, ASI QUE NO ES PERFECTO
+## —Creado por David Baña Szymaniak con la ayuda de Anxo Torres Álvarez
