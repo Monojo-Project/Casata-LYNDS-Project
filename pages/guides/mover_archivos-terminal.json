@@ -1,0 +1,25 @@
+{
+  "category": "Terminal",
+  "difficulty": "principiantes",
+  "label": "Copiar y mover archivos",
+  "topbar": {
+    "title": "cp y mv",
+    "subtitle": "Organización de tus archivos"
+  },
+  "blocks": [
+    {
+      "type": "code",
+      "language": "bash",
+      "content": "cp archivo.txt copia.txt\nmv archivo.txt nueva_carpeta/"
+    },
+    {
+      "type": "section",
+      "title": "Diferencias",
+      "list_type": "bullet",
+      "items": [
+        "cp (copy): Crea una copia exacta del archivo original.",
+        "mv (move): Mueve el archivo a una nueva ubicación o cambia su nombre si se especifica un destino diferente en la misma carpeta."
+      ]
+    }
+  ]
+}

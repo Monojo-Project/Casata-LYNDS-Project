@@ -1,0 +1,117 @@
+{
+  "category": "Protips",
+  "difficulty": "medios",
+  "label": "Protip: Atajos de teclado de KDE Plasma",
+  "topbar": {
+    "title": "Atajos de KDE Plasma",
+    "subtitle": "Trabajas más rápido con el teclado"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "Atajos esenciales de KDE Plasma",
+      "subtitle": "Los 10 más útiles en LyndsOS con KDE"
+    },
+    {
+      "type": "text",
+      "content": "KDE Plasma tiene atajos muy potentes. Usarlos te hace más rápido y reduce el uso del ratón.",
+      "font": "body",
+      "color": "text"
+    },
+    {
+      "type": "card",
+      "title": "Meta (tecla Windows)",
+      "icon": "🔍",
+      "icon_color": "accent",
+      "content": "Abre el menú de K (inicio). Escribe el nombre de lo que buscas y pulsa Enter. Es lo más rápido para abrir programas."
+    },
+    {
+      "type": "card",
+      "title": "Ctrl + C / Ctrl + V",
+      "icon": "✂",
+      "icon_color": "accent",
+      "content": "Copiar y pegar. Funciona en todo el sistema: archivos, texto, imágenes."
+    },
+    {
+      "type": "card",
+      "title": "Ctrl + Z",
+      "icon": "↩",
+      "icon_color": "accent",
+      "content": "Deshacer. Salvavidas cuando haces algo por error. Funciona en casi todos los programas."
+    },
+    {
+      "type": "card",
+      "title": "Alt + Tab",
+      "icon": "🔄",
+      "icon_color": "accent",
+      "content": "Cambiar entre ventanas abiertas. Mantén Alt pulsado y pulsa Tab varias veces."
+    },
+    {
+      "type": "card",
+      "title": "Ctrl + Alt + A",
+      "icon": "📸",
+      "icon_color": "accent",
+      "content": "Captura de pantalla. KDE Spectacle se abre para tomar una captura de la pantalla completa, ventana o región."
+    },
+    {
+      "type": "card",
+      "title": "Meta + Flechas",
+      "icon": "◼",
+      "icon_color": "accent",
+      "content": "Ajustar ventanas. Meta + flecha izquierda/derecha pega la ventana a ese lado. Meta + arriba maximiza, Meta + abajo restaura."
+    },
+    {
+      "type": "card",
+      "title": "Ctrl + Alt + T",
+      "icon": "⌨",
+      "icon_color": "accent",
+      "content": "Abrir la terminal (Konsole) al instante. Muy útil si la usas mucho."
+    },
+    {
+      "type": "card",
+      "title": "Meta + D",
+      "icon": "🏠",
+      "icon_color": "accent",
+      "content": "Mostrar el escritorio. Minimiza todas las ventanas. Pulsa otra vez para recuperarlas."
+    },
+    {
+      "type": "card",
+      "title": "Alt + F2",
+      "icon": "⚡",
+      "icon_color": "accent",
+      "content": "Ejecutar comando. Escribe un comando de terminal o el nombre de un programa para ejecutarlo rápido."
+    },
+    {
+      "type": "card",
+      "title": "Ctrl + F1-F6",
+      "icon": "🖥",
+      "icon_color": "accent",
+      "content": "Espacios de trabajo virtuales. Ctrl + F1 cambia al primer escritorio virtual."
+    },
+    {
+      "type": "section",
+      "title": "En Dolphin (gestor de archivos)"
+    },
+    {
+      "type": "list",
+      "list_type": "bullet",
+      "items": [
+        "F2 — renombrar archivo seleccionado",
+        "Ctrl + F — buscar en la carpeta actual",
+        "Ctrl + N — nueva carpeta",
+        "Ctrl + H — muestra archivos ocultos (los que comienzan por punto)",
+        "Alt + Flecha izquierda — volver a la carpeta anterior"
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Consejo"
+    },
+    {
+      "type": "text",
+      "content": "Puedes ver y cambiar todos los atajos en Configuración del Sistema > Accesos directos. KDE tiene muchos más atajos personalizables.",
+      "font": "body",
+      "color": "text"
+    }
+  ]
+}

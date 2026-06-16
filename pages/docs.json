@@ -1,0 +1,118 @@
+{
+  "topbar": {
+    "title": "Documentación de LyndsOS",
+    "subtitle": "Documentación interna de versiones, paquetes y evolución del sistema."
+  },
+  "sections": [
+    {
+      "title": "Información general",
+      "items": [
+        {
+          "title": "Proyecto",
+          "text": "LyndsOS es un sistema operativo en desarrollo con distintas versiones experimentales y orientado a entornos ligeros basados en Linux."
+        },
+        {
+          "title": "Fondos de pantalla",
+          "text": "El sistema incluye un total de 10 fondos de pantalla preinstalados."
+        }
+      ]
+    },
+    {
+      "title": "Fondos de pantalla",
+      "items": [
+        {
+          "title": "Hay 10 fondos de pantalla:",
+          "text": "LyndsOS, Maestro Casata con Monojo, Lynds robótico, Bosque hacker, Espacio infinito, L, Usuario de LyndsOS, Acchan version LyndsOS y Lobo solitario."
+        }
+      ]
+    },
+    {
+      "title": "Nombres en clave",
+      "items": [
+        {
+          "title": "Light (0.1 - 1.0)",
+          "text": "Para versiones tempranas del sistema operativo. Representa que fueron forjadas desde LyndsLite."
+        }
+      ]
+    },
+    {
+      "title": "Versiones",
+      "items": [
+        {
+          "title": "0.1.0 Nova",
+          "text": "Simplemente, no va."
+        },
+        {
+          "title": "0.2.0 Mesirve",
+          "text": "Primera versión funcional del sistema."
+        },
+        {
+          "title": "0.2.1 NavegadorGod",
+          "text": "Incluye Chromium personalizado."
+        },
+        {
+          "title": "0.2.2.0 Wasaa",
+          "text": "Añadida aplicación tipo WhatsApp Web."
+        },
+        {
+          "title": "0.2.2.1 Nobugswasaa",
+          "text": "Corrección de bug en Wasaa."
+        },
+        {
+          "title": "0.2.2.2 Webappsss",
+          "text": "Expansión de aplicaciones web integradas."
+        },
+        {
+          "title": "0.2.3 Discord",
+          "text": "Integración de Discord oficial."
+        },
+        {
+          "title": "0.3.0 Myapps",
+          "text": "Eliminación de Discord y añadido Monojo Chats LAN 2.0."
+        },
+        {
+          "title": "0.3.1 Miau",
+          "text": "Añadido juego Gati Clicker y cambio de nombre de usuario a LyndsOS Light."
+        },
+        {
+          "title": "0.3.2 Syu",
+          "text": "Creación del instalador Abracitos para instalación del sistema."
+        }
+      ]
+    },
+    {
+      "title": "Paquetes del sistema",
+      "items": [
+        {
+          "title": "Entorno base",
+          "text": "plasma-desktop, sddm, network-manager, plasma-nm, systemsettings, sudo, plasma-pa, powerdevil, bluedevil, wpasupplicant, ca-certificates, locales"
+        },
+        {
+          "title": "Aplicaciones principales",
+          "text": "dolphin, konsole, kdeconnect, partitionmanager, tree, chromium, kate, okular, vlc, ark, gwenview, libreoffice, cava, parted"
+        },
+        {
+          "title": "Dependencias del sistema",
+          "text": "udisks2, efibootmgr, grub-efi-amd64, python3-pil, python3-pil.imagetk, python3-tk"
+        },
+        {
+          "title": "Aplicaciones adicionales",
+          "text": "flatpak"
+        }
+      ]
+    },
+    {
+      "title": "Notas del proyecto",
+      "items": [
+        {
+          "title": "Estado general",
+          "text": "LyndsOS es un proyecto experimental en evolución constante con cambios frecuentes entre versiones."
+        },
+        {
+          "title": "Objetivo",
+          "text": "Construir un sistema operativo ligero, modular y personalizable con integración de aplicaciones del ecosistema Lynds y Monojo."
+        }
+      ]
+    }
+  ]
+}

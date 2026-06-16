@@ -1,0 +1,31 @@
+{
+  "category": "Instalación",
+  "difficulty": "medios",
+  "label": "Guía Simple para instalar LibreOffice",
+  "topbar": {
+    "title": "Cómo instalar LibreOffice",
+    "subtitle": "Oficina completa gratuita"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "Instalar LibreOffice"
+    },
+    {
+      "type": "code",
+      "language": "bash",
+      "content": "sudo apt install libreoffice"
+    },
+    {
+      "type": "section",
+      "title": "Componentes incluidos",
+      "list_type": "bullet",
+      "items": [
+        "Writer — procesador de texto (como Word)",
+        "Calc — hojas de cálculo (como Excel)",
+        "Impress — presentaciones (como PowerPoint)",
+        "Abre archivos de Office sin problemas"
+      ]
+    }
+  ]
+}

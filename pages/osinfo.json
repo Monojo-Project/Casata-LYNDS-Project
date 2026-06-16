@@ -1,0 +1,62 @@
+{
+  "topbar": {
+    "title": "Información de LyndsDev",
+    "subtitle": "Información completa del sistema"
+  },
+
+  "timestamp_format": "%Y-%m-%d %H:%M:%S",
+
+  "groups": [
+    {
+      "title": "Sistema Operativo",
+      "rows": [
+        {
+          "key": "Sistema Operativo",
+          "value": "LyndsOS"
+        },
+        {
+          "key": "Hostname",
+          "value": "$runtime.os.node"
+        },
+        {
+          "key": "Kernel",
+          "value": "$runtime.os.release"
+        },
+        {
+          "key": "Versión",
+          "value": "1.0.0"
+        },
+                {
+          "key": "Codename de la versión",
+          "value": "Light"
+        },
+        {
+          "key": "Arquitectura",
+          "value": "$runtime.os.machine"
+        }
+      ]
+    },
+
+    {
+      "title": "Python",
+      "rows": [
+        {
+          "key": "Versión de Python",
+          "value": "$runtime.python.version"
+        },
+        {
+          "key": "Implementación",
+          "value": "$runtime.python.impl"
+        },
+        {
+          "key": "Compilador",
+          "value": "$runtime.python.compiler"
+        },
+        {
+          "key": "Arquitectura",
+          "value": "$runtime.python.arch"
+        }
+      ]
+    }
+  ]
+}

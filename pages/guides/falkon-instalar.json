@@ -1,0 +1,38 @@
+{
+  "category": "Instalación",
+  "difficulty": "principiantes",
+  "label": "Guía Simple para instalar Falkon",
+  "topbar": {
+    "title": "Cómo instalar Falkon",
+    "subtitle": "Navegador web ligero para KDE"
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "content": "Falkon es un navegador web ligero y rápido desarrollado por la comunidad KDE, diseñado para integrarse perfectamente con el escritorio Plasma.",
+      "font": "body",
+      "color": "text"
+    },
+    {
+      "type": "section",
+      "title": "Instalación mediante terminal",
+      "subtitle": "El método más rápido"
+    },
+    {
+      "type": "code",
+      "language": "bash",
+      "content": "sudo apt update\nsudo apt install falkon"
+    },
+    {
+      "type": "section",
+      "title": "Características destacadas",
+      "list_type": "bullet",
+      "items": [
+        "Ligero: Consume menos recursos que navegadores como Chrome o Firefox.",
+        "Integración: Utiliza el estilo visual de tu sistema KDE Plasma.",
+        "Bloqueador de publicidad: Incluye un bloqueador de anuncios nativo integrado.",
+        "Privacidad: Gestión avanzada de cookies y navegación privada."
+      ]
+    }
+  ]
+}

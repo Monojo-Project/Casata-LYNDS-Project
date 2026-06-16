@@ -1,0 +1,34 @@
+{
+  "category": "Terminal",
+  "difficulty": "medios",
+  "label": "Sudo explicado",
+  "topbar": {
+    "title": "sudo",
+    "subtitle": "Ejecución con privilegios de superusuario"
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "content": "El comando 'sudo' (SuperUser DO) permite ejecutar programas o comandos con los privilegios de seguridad de otro usuario, generalmente el administrador (root).",
+      "font": "body",
+      "color": "text"
+    },
+    {
+      "type": "card",
+      "title": "Precaución",
+      "icon": "⚠️",
+      "icon_color": "profesionales",
+      "content": "Al usar sudo, tienes control total sobre el sistema. Un error al escribir un comando puede dañar archivos importantes."
+    },
+    {
+      "type": "section",
+      "title": "Puntos clave",
+      "list_type": "bullet",
+      "items": [
+        "Autorización: Te pedirá tu contraseña de usuario la primera vez que lo uses en la sesión.",
+        "Seguridad: El acceso está restringido a usuarios añadidos al grupo 'sudo'.",
+        "Buena práctica: No uses sudo para tareas que puedes hacer como usuario normal (ej. navegar, redactar textos)."
+      ]
+    }
+  ]
+}

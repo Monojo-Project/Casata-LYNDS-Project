@@ -1,0 +1,30 @@
+{
+  "category": "Instalación",
+  "difficulty": "medios",
+  "label": "Guía Simple para instalar OBS Studio",
+  "topbar": {
+    "title": "Cómo instalar OBS Studio",
+    "subtitle": "Graba y o transmite tu pantalla"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "Instalar OBS"
+    },
+    {
+      "type": "code",
+      "language": "bash",
+      "content": "sudo apt install obs-studio"
+    },
+    {
+      "type": "section",
+      "title": "Usar OBS",
+      "list_type": "bullet",
+      "items": [
+        "Graba tu pantalla para tutoriales",
+        "Haz streaming a Twitch/YouTube/Kick",
+        "Configura fuentes de captura en 'Fuentes'"
+      ]
+    }
+  ]
+}

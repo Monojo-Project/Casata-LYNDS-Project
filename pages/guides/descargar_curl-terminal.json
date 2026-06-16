@@ -1,0 +1,25 @@
+{
+  "category": "Terminal",
+  "difficulty": "principiantes",
+  "label": "Descargar con curl",
+  "topbar": {
+    "title": "curl",
+    "subtitle": "Transferencia de datos desde la línea de comandos"
+  },
+  "blocks": [
+    {
+      "type": "code",
+      "language": "bash",
+      "content": "curl -O https://ejemplo.com/archivo.zip"
+    },
+    {
+      "type": "section",
+      "title": "Explicación",
+      "list_type": "bullet",
+      "items": [
+        "curl: Herramienta para transferir datos desde o hacia un servidor.",
+        "-O (remote-name): Escribe el archivo descargado usando el mismo nombre que tiene en el servidor remoto."
+      ]
+    }
+  ]
+}

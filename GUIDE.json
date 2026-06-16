@@ -1,0 +1,20 @@
+{
+  "links": [
+    {
+      "file": "lyndshub.py",
+      "dest": "/usr/bin",
+      "name": "lyndshub",
+      "executable": true
+    },
+    {
+      "file": "icon.png",
+      "dest": "/usr/share/icons/LyndsOS",
+      "name": "lyndshub.png"
+    },
+    {
+      "file": "lyndshub.desktop",
+      "dest": "/usr/share/applications",
+      "name": "lyndshub.desktop"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "category": "Instalación",
+  "difficulty": "principiantes",
+  "label": "Guía Simple para instalar VLC",
+  "topbar": {
+    "title": "Cómo instalar VLC",
+    "subtitle": "Reproductor de vídeo universal"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "Instalar VLC",
+      "subtitle": "Solo un comando"
+    },
+    {
+      "type": "card",
+      "title": "Paso único: Instalar",
+      "icon": "1",
+      "icon_color": "accent",
+      "content": "Abre la terminal y escribe:"
+    },
+    {
+      "type": "code",
+      "language": "bash",
+      "content": "sudo apt install vlc"
+    },
+    {
+      "type": "section",
+      "title": "Usar VLC",
+      "list_type": "bullet",
+      "items": [
+        "Abre un archivo con VLC.",
+        "VLC reproduce casi todos los formatos"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "navigation": [
+    { "type": "separator" },
+    { "label": "🏠  Home",                  "page": "home"    },
+    { "label": "📄  Documentación",         "page": "docs"    },
+    { "label": "🖥️  Información del OS",    "page": "osinfo"  },
+    { "label": "👥  Créditos",              "page": "credits" },
+    { "type": "separator" },
+    { "label": "✨  LyndsLite",             "page": "lyndslite" }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "category": "Terminal",
+  "difficulty": "medios",
+  "label": "Ping y traceroute",
+  "topbar": {
+    "title": "Conectividad de Red",
+    "subtitle": "Diagnostica problemas de red desde la terminal"
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "content": "Cuando tienes problemas de internet o quieres saber si un servidor está activo, 'ping' y 'traceroute' son tus mejores aliados para analizar la ruta y la velocidad de los datos.",
+      "font": "body",
+      "color": "text"
+    },
+    {
+      "type": "code",
+      "language": "bash",
+      "content": "# Comprobar si un sitio responde\nping -c 4 google.com\n\n# Ver el camino completo hasta el destino\ntraceroute google.com"
+    },
+    {
+      "type": "section",
+      "title": "¿Qué hacen estos comandos?",
+      "list_type": "bullet",
+      "items": [
+        "ping: Envía pequeños paquetes de datos (ICMP) a un destino para ver si responde y cuánto tarda (latencia).",
+        "-c 4: Indica al ping que solo envíe 4 paquetes y se detenga (sin esto, se ejecutará indefinidamente).",
+        "traceroute: Muestra cada uno de los nodos o 'saltos' por los que pasa tu conexión hasta llegar al destino final.",
+        "Análisis: Si el ping falla, el problema puede ser tu conexión o el servidor. Si el traceroute falla a mitad, el problema está en un nodo intermedio (un router en el camino)."
+      ]
+    }
+  ]
+}

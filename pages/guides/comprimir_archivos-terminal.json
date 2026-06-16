@@ -1,0 +1,28 @@
+{
+  "category": "Terminal",
+  "difficulty": "medios",
+  "label": "Comprimir archivos",
+  "topbar": {
+    "title": "tar",
+    "subtitle": "Empaquetado y compresión de archivos"
+  },
+  "blocks": [
+    {
+      "type": "code",
+      "language": "bash",
+      "content": "# Comprimir\ntar -czvf archivo.tar.gz carpeta/\n\n# Descomprimir\ntar -xzvf archivo.tar.gz"
+    },
+    {
+      "type": "section",
+      "title": "Significado de las opciones",
+      "list_type": "bullet",
+      "items": [
+        "-c: Crear un nuevo archivo.",
+        "-z: Comprimir el archivo usando gzip.",
+        "-v (verbose): Muestra el progreso en pantalla.",
+        "-f: Especifica el nombre del archivo.",
+        "-x: Extraer (descomprimir)."
+      ]
+    }
+  ]
+}

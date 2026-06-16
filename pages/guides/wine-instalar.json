@@ -1,0 +1,16 @@
+{
+  "category": "Instalación",
+  "difficulty": "medios",
+  "label": "Instalar Wine",
+  "topbar": {
+    "title": "Wine para ejecutar Windows",
+    "subtitle": "Apps de Windows en Linux"
+  },
+  "blocks": [
+    {
+      "type": "code",
+      "language": "bash",
+      "content": "sudo dpkg --add-architecture i386\nsudo apt update\nsudo apt install wine64 wine32"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "category": "Terminal",
+  "difficulty": "principiantes",
+  "label": "Ver contenido de archivos",
+  "topbar": {"title": "cat, less, head, tail"},
+  "blocks": [
+    {"type": "code", "language": "bash", "content": "cat archivo.txt\nless archivo.txt\nhead archivo.txt\ntail archivo.txt"}
+  ]
+}

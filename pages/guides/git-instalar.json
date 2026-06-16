@@ -1,0 +1,16 @@
+{
+  "category": "Instalación",
+  "difficulty": "principiantes",
+  "label": "Guía Simple para instalar Git",
+  "topbar": {
+    "title": "Cómo instalar Git",
+    "subtitle": "Control de versiones básico"
+  },
+  "blocks": [
+    {
+      "type": "code",
+      "language": "bash",
+      "content": "sudo apt install git"
+    }
+  ]
+}

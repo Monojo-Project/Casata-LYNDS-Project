@@ -1,0 +1,51 @@
+{
+  "topbar": {
+    "title": "Dashboard",
+    "subtitle": "Bienvenido a LyndsHub"
+  },
+  "hero": {
+    "title": "LyndsHub",
+    "description": "Un hub profesional y open-source de información y documentación de proyectos.\nAquí tenemos información sobre LyndsOS.",
+    "tags": ["Open Source", "MIT License", "v1.0.0", "Python · Tkinter"]
+  },
+  "stats": [
+    { "value": "4", "label": "Contribuidores", "color": "accent" },
+    { "value": "1.0.0", "label": "Versión del OS", "color": "red" },
+    { "value": "MIT", "label": "Licencia", "color": "amber" },
+    { "value": "Open", "label": "Código Fuente", "color": "green" }
+  ],
+  "social_section_title": "Nuestra Presencia Digital",
+  "social_networks": [
+    {
+      "name": "GitHub",
+      "icon_path": "assets/github.png",
+      "color": "#24292e",
+      "links": [
+        { "label": "Proyecto Monojo", "url": "https://github.com/monojo-project" }
+      ]
+    },
+    {
+      "name": "WhatsApp",
+      "icon_path": "assets/whatsapp.png",
+      "color": "#25D366",
+      "links": [
+        { "label": "Lynds Fans", "url": "https://whatsapp.com/channel/0029Vb7fi2LGU3BlsJ7X6z0y" }
+      ]
+    },
+    {
+      "name": "Discord",
+      "icon_path": "assets/discord.png",
+      "color": "#5865F2",
+      "links": [
+        { "label": "Lynds Fans y Soporte", "url": "https://discord.gg/g8VDqd2ZZD" }
+      ]
+    }
+  ],
+  "quick_links_title": "Navegación Rápida",
+  "quick_links": [
+    { "label": "📄 Documentación", "page": "docs", "description": "Lee la documentación completa" },
+    { "label": "🖥️ Info del OS", "page": "osinfo", "description": "Información del sistema" },
+    { "label": "👥 Créditos", "page": "credits", "description": "Conoce al equipo" },
+    { "label": "📚 Guías", "page": "guides", "description": "Muchas guías para resolver dudas del SO" }
+  ]
+}

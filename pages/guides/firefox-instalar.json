@@ -1,0 +1,63 @@
+{
+  "category": "Instalación",
+  "difficulty": "principiantes",
+  "label": "Guía Simple para instalar Firefox",
+  "topbar": {
+    "title": "Cómo instalar Firefox",
+    "subtitle": "Para principiantes en LyndsOS"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "Instalar Firefox",
+      "subtitle": "Solo un comando"
+    },
+    {
+      "type": "text",
+      "content": "Firefox se instala en LyndsOS con un solo comando en la terminal.",
+      "font": "body",
+      "color": "text"
+    },
+    {
+      "type": "card",
+      "title": "Paso único: Instalar",
+      "icon": "1",
+      "icon_color": "accent",
+      "content": "Abre la terminal y escribe este comando:"
+    },
+    {
+      "type": "code",
+      "language": "bash",
+      "content": "sudo apt install firefox-esr"
+    },
+    {
+      "type": "text",
+      "content": "Escribe tu contraseña cuando te la pida y espera a que termine.",
+      "font": "small",
+      "color": "text_sub"
+    },
+    {
+      "type": "section",
+      "title": "Usar Firefox"
+    },
+    {
+      "type": "list",
+      "list_type": "bullet",
+      "items": [
+        "Busca 'Firefox' en el menú de aplicaciones",
+        "Haz clic para abrirlo",
+        "Inicia sesión con tu cuenta de Firefox (opcional, para sincronizar marcadores)"
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Nota"
+    },
+    {
+      "type": "text",
+      "content": "LyndsOS ya viene con Chromium. Firefox es una alternativa si quieres otro navegador con diferente motor.",
+      "font": "small",
+      "color": "text_sub"
+    }
+  ]
+}

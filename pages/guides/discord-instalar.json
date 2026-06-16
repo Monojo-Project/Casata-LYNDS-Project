@@ -1,0 +1,66 @@
+{
+  "category": "Instalación",
+  "difficulty": "principiantes",
+  "label": "Guía Simple para instalar Discord",
+  "topbar": {
+    "title": "Cómo instalar Discord",
+    "subtitle": "Para principiantes en Linux"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "Instalar Discord",
+      "subtitle": "Método fácil sin terminal"
+    },
+    {
+      "type": "text",
+      "content": "Estos pasos son para instalar Discord en Debian sin usar la terminal.",
+      "font": "body",
+      "color": "text"
+    },
+    {
+      "type": "card",
+      "title": "Paso 1: Descargar Discord",
+      "icon": "1",
+      "icon_color": "accent",
+      "content": "Abre tu navegador, entra en discord.com/download y haz clic en 'Linux' para descargar el archivo."
+    },
+    {
+      "type": "card",
+      "title": "Paso 2: Abrir el archivo",
+      "icon": "2",
+      "icon_color": "accent",
+      "content": "Ve a tu carpeta 'Descargas', haz doble clic en el archivo 'discord.deb' y elige abrirlo con Discover (o con tu gestor de paquetes)."
+    },
+    {
+      "type": "card",
+      "title": "Paso 3: Instalar",
+      "icon": "3",
+      "icon_color": "accent",
+      "content": "En Discover, haz clic en 'Instalar' y espera a que termine. Si te pide tu contraseña, la escribiste bien."
+    },
+    {
+      "type": "section",
+      "title": "Usar Discord"
+    },
+    {
+      "type": "list",
+      "list_type": "bullet",
+      "items": [
+        "Busca 'Discord' en el menú de aplicaciones",
+        "Haz clic para abrirlo",
+        "Inicia sesión o crea una cuenta nueva"
+      ]
+    },
+    {
+      "type": "section",
+      "title": "¿No tienes Discover?"
+    },
+    {
+      "type": "text",
+      "content": "Si tu sistema usa otro gestor (como GDebi o Software Center), abre el archivo .deb con ese programa y instala desde ahí.",
+      "font": "body",
+      "color": "text"
+    }
+  ]
+}

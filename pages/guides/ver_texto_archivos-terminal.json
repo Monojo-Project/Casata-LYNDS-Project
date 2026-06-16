@@ -1,0 +1,34 @@
+{
+  "category": "Terminal",
+  "difficulty": "principiantes",
+  "label": "Buscar texto en archivos",
+  "topbar": {
+    "title": "grep",
+    "subtitle": "Busca cadenas de texto dentro de archivos"
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "content": "El comando 'grep' es una herramienta fundamental en Linux que sirve para buscar patrones de texto dentro de archivos o incluso en el flujo de datos de otros comandos.",
+      "font": "body",
+      "color": "text"
+    },
+    {
+      "type": "code",
+      "language": "bash",
+      "content": "# Buscar una palabra en un archivo específico\ngrep 'texto' archivo.txt\n\n# Buscar en todos los archivos de una carpeta (recursivo)\ngrep -r 'texto' carpeta/"
+    },
+    {
+      "type": "section",
+      "title": "Desglose de los comandos",
+      "list_type": "bullet",
+      "items": [
+        "grep: Invoca la herramienta de búsqueda de patrones.",
+        "'texto': El patrón o palabra exacta que quieres localizar.",
+        "archivo.txt: El archivo específico donde se realizará la búsqueda.",
+        "-r (recursivo): Indica a grep que debe buscar no solo en la carpeta actual, sino también en todas sus subcarpetas.",
+        "carpeta/: El directorio donde comenzará la búsqueda."
+      ]
+    }
+  ]
+}

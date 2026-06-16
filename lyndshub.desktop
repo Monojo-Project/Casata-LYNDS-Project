@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=LyndsHub
+Comment=¡Soporte, documentación, créditos e historias!
+Exec=lyndshub
+Icon=/usr/local/casata/apps/lyndshub/icon.png
+Terminal=false
+Categories=System;Documentation;KDE;Qt
+StartupNotify=true
+StartupWMClass=lyndshub_main

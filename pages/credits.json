@@ -1,0 +1,47 @@
+{
+  "topbar": {
+    "title":    "Créditos",
+    "subtitle": "El equipo detrás de LyndsOS"
+  },
+  "team": [
+    {
+      "name":    "David Baña Szymaniak",
+      "role":    "Fundador",
+      "initial": "DB",
+      "color":   "green",
+      "bio":     "Sin él en LyndsCorp, la empresa entraría en kernel panic. Creó LyndsOS desde LyndsLite con tan solo 13 años. Cuando tenía 12 años, creó el proyecto Monojo que implementará en LyndsOS.",
+      "skills":  ["Free Software", "LyndsOS", "Sistemas", "Líder"]
+    },
+    {
+      "name":    "Anxo Torres Álvarez",
+      "role":    "Maximum Programmer",
+      "initial": "AT",
+      "color":   "amber",
+      "bio":     "Trajo mucho humor y motivación al proyecto. Con tan solo 12 años, planificó muchas cosas sobre el futuro de Lynds.",
+      "skills":  ["Open Source", "Humor", "Python"]
+    },
+        {
+      "name":    "Diana Baña Szymaniak",
+      "role":    "Apps",
+      "initial": "DB",
+      "color":   "pink",
+      "bio":     "Creó varias aplicaciones y fue el primer usuario en probar LyndsDev con tan solo 11 años.",
+      "skills":  ["Open Source", "Aplicaciones", "Testing"]
+    },
+    {
+      "name":    "Alberto Castro Jimenez",
+      "role":    "Apoyo Gráfico",
+      "initial": "AC",
+      "color":   "#3B82F6",
+      "bio":     "Responsable de algunos fondos de pantalla e iconos. Estuvo allí desde los inicios.",
+      "skills":  ["Assets", "Testing", "Apoyo"]
+    }
+  ],
+  "project_section_title": "Información del Proyecto",
+  "project": [
+    { "label": "Proyecto",      "value": "LyndsOS"          },
+    { "label": "Versión",       "value": "1.0.0"             },
+    { "label": "Licencia",      "value": "GPL — Free Software" },
+    { "label": "Construido con:","value": "Debian 13 y KDE Plasma 6"  }
+  ]
+}

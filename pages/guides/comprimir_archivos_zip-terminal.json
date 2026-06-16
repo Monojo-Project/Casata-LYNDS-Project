@@ -1,0 +1,39 @@
+{
+  "category": "Terminal",
+  "difficulty": "medios",
+  "label": "Comprimir con zip",
+  "topbar": {
+    "title": "Archivos ZIP: Comandos zip y unzip",
+    "subtitle": "Gestión de archivos comprimidos ZIP desde la terminal"
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "content": "El comando 'zip' permite empaquetar y comprimir archivos para ahorrar espacio o facilitar su envío, mientras que 'unzip' permite extraer el contenido.",
+      "font": "body",
+      "color": "text"
+    },
+    {
+      "type": "section",
+      "title": "Uso básico",
+      "subtitle": "Sintaxis para comprimir y extraer"
+    },
+    {
+      "type": "code",
+      "language": "bash",
+      "content": "# Comprimir una carpeta entera\nzip -r archivo.zip nombre_carpeta/\n\n# Extraer el contenido\nunzip archivo.zip"
+    },
+    {
+      "type": "section",
+      "title": "Explicación de los comandos",
+      "list_type": "bullet",
+      "items": [
+        "zip: Comando base para crear el archivo comprimido.",
+        "-r (recursivo): Indica que debe incluir todos los archivos y subcarpetas dentro del directorio.",
+        "archivo.zip: Es el nombre que tendrá tu archivo comprimido resultante.",
+        "nombre_carpeta/: Es el origen de los datos que quieres comprimir.",
+        "unzip: Comando utilizado para descomprimir el archivo y restaurar su contenido original."
+      ]
+    }
+  ]
+}

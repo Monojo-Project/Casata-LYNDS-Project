@@ -1,0 +1,74 @@
+{
+  "category": "Instalación",
+  "difficulty": "principiantes",
+  "label": "Guía Simple para instalar Steam",
+  "topbar": {
+    "title": "Cómo instalar Steam",
+    "subtitle": "Para principiantes en LyndsOS"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "Instalar Steam",
+      "subtitle": "Solo un comando"
+    },
+    {
+      "type": "text",
+      "content": "Steam se instala en LyndsOS con un solo comando en la terminal.",
+      "font": "body",
+      "color": "text"
+    },
+    {
+      "type": "card",
+      "title": "Paso único: Instalar",
+      "icon": "1",
+      "icon_color": "accent",
+      "content": "Abre la terminal y escribe este comando:"
+    },
+    {
+      "type": "code",
+      "language": "bash",
+      "content": "sudo apt install steam"
+    },
+    {
+      "type": "text",
+      "content": "Escribe tu contraseña cuando te la pida y espera a que termine. La primera vez puede tardar un poco.",
+      "font": "small",
+      "color": "text_sub"
+    },
+    {
+      "type": "section",
+      "title": "Después de instalar"
+    },
+    {
+      "type": "list",
+      "list_type": "bullet",
+      "items": [
+        "Busca 'Steam' en el menú de aplicaciones",
+        "Haz clic para abrirlo",
+        "Inicia sesión con tu cuenta de Steam o crea una nueva",
+        "Activa Steam Play (Proton) en Configuración > Workshops para jugar a juegos de Windows"
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Nota importante"
+    },
+    {
+      "type": "text",
+      "content": "Steam Play (Proton) permite jugar a muchos juegos de Windows en Linux. Actívalo en Configuración para tener más compatibilidad.",
+      "font": "small",
+      "color": "text_sub"
+    },
+    {
+      "type": "section",
+      "title": "Consejo"
+    },
+    {
+      "type": "text",
+      "content": "Antes de comprar un juego, échale un vistazo en protondb.org para ver si funciona bien en Linux.",
+      "font": "body",
+      "color": "text"
+    }
+  ]
+}

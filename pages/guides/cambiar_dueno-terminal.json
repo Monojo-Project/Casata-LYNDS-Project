@@ -1,0 +1,33 @@
+{
+  "category": "Terminal",
+  "difficulty": "principiantes",
+  "label": "Cambiar propietario",
+  "topbar": {
+    "title": "chown",
+    "subtitle": "Gestiona la propiedad de archivos y carpetas"
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "content": "El comando 'chown' (change owner) sirve para cambiar el dueño y/o el grupo al que pertenece un archivo o directorio en el sistema.",
+      "font": "body",
+      "color": "text"
+    },
+    {
+      "type": "code",
+      "language": "bash",
+      "content": "# Cambiar dueño y grupo\nsudo chown usuario:grupo archivo"
+    },
+    {
+      "type": "section",
+      "title": "Desglose del comando",
+      "list_type": "bullet",
+      "items": [
+        "sudo: Necesario ya que cambiar la propiedad afecta la seguridad del sistema.",
+        "usuario: El nombre del nuevo propietario.",
+        ":grupo: (Opcional) El nuevo grupo al que se asignará el archivo.",
+        "archivo: El destino al que quieres aplicar el cambio."
+      ]
+    }
+  ]
+}

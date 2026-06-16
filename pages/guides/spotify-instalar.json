@@ -1,0 +1,72 @@
+{
+  "category": "Instalación",
+  "difficulty": "principiantes",
+  "label": "Guía de Instalación de Spotify en Debian",
+  "topbar": {
+    "title": "Cómo instalar Spotify",
+    "subtitle": "Guía oficial para Debian"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "Instalar Spotify en Debian",
+      "subtitle": "Método oficial con repositorio APT"
+    },
+    {
+      "type": "text",
+      "content": "Spotify se instala en Debian configurando su repositorio oficial y luego instalando el cliente con apt-get.",
+      "font": "body",
+      "color": "text"
+    },
+    {
+      "type": "card",
+      "title": "Paso 1: Configurar el repositorio",
+      "icon": "1",
+      "icon_color": "accent",
+      "content": "Añade la clave GPG y el repositorio de Spotify en tu sistema."
+    },
+    {
+      "type": "code",
+      "language": "bash",
+      "content": "curl -sS https://download.spotify.com/debian/pubkey_5384CE82BA52C83A.asc | sudo gpg --dearmor --yes -o /etc/apt/trusted.gpg.d/spotify.gpg\necho \"deb https://repository.spotify.com stable non-free\" | sudo tee /etc/apt/sources.list.d/spotify.list"
+    },
+    {
+      "type": "card",
+      "title": "Paso 2: Instalar Spotify",
+      "icon": "2",
+      "icon_color": "accent",
+      "content": "Actualiza la lista de paquetes y instala el cliente de Spotify."
+    },
+    {
+      "type": "code",
+      "language": "bash",
+      "content": "sudo apt-get update && sudo apt-get install spotify-client"
+    },
+    {
+      "type": "section",
+      "title": "Después de instalar"
+    },
+    {
+      "type": "list",
+      "list_type": "bullet",
+      "items": [
+        "Abre Spotify desde el menú de aplicaciones",
+        "Inicia sesión con tu cuenta de Spotify o crea una nueva",
+        "Empieza a escuchar música"
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Notas importantes"
+    },
+    {
+      "type": "list",
+      "list_type": "check",
+      "items": [
+        "El cliente Linux no tiene todas las funciones de Windows/Mac",
+        "Spotify para Linux se desarrolla en su tiempo libre por el equipo",
+        "Puedes reportar problemas en la comunidad de Desktop Linux"
+      ]
+    }
+  ]
+}

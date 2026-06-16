@@ -1,0 +1,59 @@
+{
+  "category": "Instalación",
+  "difficulty": "principiantes",
+  "label": "Cómo volverse un hacker con CMatrix",
+  "topbar": {
+    "title": "Cómo volverse un hacker",
+    "subtitle": "Con CMatrix"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "Instalar CMatrix",
+      "subtitle": "Solo un comando"
+    },
+    {
+      "type": "text",
+      "content": "CMatrix, la aplicación para volverte hacker, tienes que instalarla asi:.",
+      "font": "body",
+      "color": "text"
+    },
+    {
+      "type": "card",
+      "title": "Paso único: Instalar",
+      "icon": "1",
+      "icon_color": "accent",
+      "content": "Abre la terminal y escribe este comando:"
+    },
+    {
+      "type": "code",
+      "language": "bash",
+      "content": "sudo apt install cmatrix"
+    },
+    {
+      "type": "text",
+      "content": "Escribe tu contraseña cuando te la pida y espera a que termine.",
+      "font": "small",
+      "color": "text_sub"
+    },
+    {
+      "type": "section",
+      "title": "Activar CMatrix, escribe este comando cuando lo instales."
+    },
+    {
+      "type": "code",
+      "language": "bash",
+      "content": "cmatrix"
+    },
+    {
+      "type": "section",
+      "title": "Nota"
+    },
+    {
+      "type": "text",
+      "content": "No hackeas nada en realidad, solo es una lluvia matrix.",
+      "font": "small",
+      "color": "text_sub"
+    }
+  ]
+}

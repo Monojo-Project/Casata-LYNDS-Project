@@ -1,0 +1,105 @@
+{
+  "category": "Protips",
+  "difficulty": "principiantes",
+  "label": "Protip: Teclas especiales del teclado",
+  "topbar": {
+    "title": "Teclas especiales explicadas",
+    "subtitle": "Meta, Fn y las teclas de función"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "Teclas especiales que necesitas conocer",
+      "subtitle": "Meta y Fn explicadas"
+    },
+    {
+      "type": "text",
+      "content": "Algunas teclas tienen nombres diferentes o funciones especiales. Aquí te explico las más importantes.",
+      "font": "body",
+      "color": "text"
+    },
+    {
+      "type": "card",
+      "title": "Meta (tecla Windows)",
+      "icon": "🪟",
+      "icon_color": "accent",
+      "content": "Es la tecla con el logo de Windows. En Linux se llama 'Meta'. Abre el menú de inicio y es la base de muchos atajos."
+    },
+    {
+      "type": "text",
+      "content": "Ejemplos de uso:",
+      "font": "body",
+      "color": "text"
+    },
+    {
+      "type": "list",
+      "list_type": "bullet",
+      "items": [
+        "Meta (solita) — abre el menú de K / inicio",
+        "Meta + E — abre el gestor de archivos",
+        "Meta + D — muestra el escritorio",
+        "Meta + Flechas — mueve/ajusta ventanas"
+      ]
+    },
+    {
+      "type": "card",
+      "title": "Fn (Función)",
+      "icon": "⌨",
+      "icon_color": "accent",
+      "content": "La tecla Fn cambia el comportamiento de las teclas F1-F12. Se usa en portátiles para funciones especiales."
+    },
+    {
+      "type": "text",
+      "content": "Qué hace cada tecla F con y sin Fn (ejemplo común en portátiles):",
+      "font": "body",
+      "color": "text"
+    },
+    {
+      "type": "list",
+      "list_type": "bullet",
+      "items": [
+        "NOTA: El comportamiento depende de tu modelo de PC. Revisa los iconos en tus teclas.",
+        "F1 — sin Fn: ayuda | con Fn: nada",
+        "F2 — sin Fn: F2 normal | con Fn: nada",
+        "F3 — sin Fn: F3 normal | con Fn: suspende el equipo",
+        "F4 — sin Fn: F4 normal | con Fn: nada",
+        "F5 — sin Fn: F5 normal | con Fn: baja brillo pantalla",
+        "F6 — sin Fn: F6 normal | con Fn: baja el volumen",
+        "F7 — sin Fn: F7 normal | con Fn: sube el volumen",
+        "F8 — sin Fn: F8 normal | con Fn: nada",
+        "F9 — sin Fn: F9 normal | con Fn: bajar brillo",
+        "F10 — sin Fn: F10 normal | con Fn: subir el brillo",
+        "F11 — sin Fn: F11 normal | con Fn: nada",
+        "F12 — sin Fn: F12 normal | con Fn: modo avión"
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Otras teclas útiles"
+    },
+    {
+      "type": "list",
+      "list_type": "bullet",
+      "items": [
+        "Esc — salir o cancelar acción",
+        "Impr Pant — captura de pantalla (Ctrl + Alt + A en KDE)",
+        "Pause/Break — pausa procesos en la terminal",
+        "Insert — cambia entre modo insertar y sobrescribir",
+        "Home — va al principio de la línea o documento",
+        "End — va al final de la línea o documento",
+        "Page Up — sube una página",
+        "Page Down — baja una página"
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Consejo"
+    },
+    {
+      "type": "text",
+      "content": "En KDE Plasma puedes personalizar tus atajos en Configuración del Sistema > Accesos directos. Muchos portátiles modernos permiten invertir el uso de Fn en la BIOS o mediante teclas especiales.",
+      "font": "body",
+      "color": "text"
+    }
+  ]
+}

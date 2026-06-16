@@ -1,0 +1,63 @@
+{
+  "category": "Instalación",
+  "difficulty": "principiantes",
+  "label": "Guía Simple para instalar Zen Browser",
+  "topbar": {
+    "title": "Cómo instalar Zen Browser",
+    "subtitle": "Para principiantes en LyndsOS"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "Instalar Zen Browser",
+      "subtitle": "Solo un comando"
+    },
+    {
+      "type": "text",
+      "content": "Zen Browser se instala en LyndsOS con un solo comando en la terminal.",
+      "font": "body",
+      "color": "text"
+    },
+    {
+      "type": "card",
+      "title": "Paso único: Instalar",
+      "icon": "1",
+      "icon_color": "accent",
+      "content": "Abre la terminal y escribe este comando:"
+    },
+    {
+      "type": "code",
+      "language": "bash",
+      "content": "sudo apt install zen-browser"
+    },
+    {
+      "type": "text",
+      "content": "Escribe tu contraseña cuando te la pida y espera a que termine.",
+      "font": "small",
+      "color": "text_sub"
+    },
+    {
+      "type": "section",
+      "title": "Usar Zen Browser"
+    },
+    {
+      "type": "list",
+      "list_type": "bullet",
+      "items": [
+        "Busca 'Zen Browser' en el menú de aplicaciones",
+        "Haz clic para abrirlo",
+        "Configura tu inicio rápido y empieza a navegar"
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Nota"
+    },
+    {
+      "type": "text",
+      "content": "Zen Browser es un navegador moderno basado en Firefox, con una interfaz limpia y funciones de privacidad.",
+      "font": "small",
+      "color": "text_sub"
+    }
+  ]
+}

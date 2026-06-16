@@ -1,0 +1,16 @@
+{
+  "fonts": {
+    "title":    { "family": "Helvetica Neue", "size": 22, "style": "bold"  },
+    "heading":  { "family": "Helvetica Neue", "size": 14, "style": "bold"  },
+    "subhead":  { "family": "Helvetica Neue", "size": 11, "style": "bold"  },
+    "body":     { "family": "Helvetica Neue", "size": 10, "style": ""      },
+    "small":    { "family": "Helvetica Neue", "size":  9, "style": ""      },
+    "mono":     { "family": "Courier New",    "size": 10, "style": ""      },
+    "nav":      { "family": "Helvetica Neue", "size": 10, "style": "bold"  },
+    "logo":     { "family": "Helvetica Neue", "size": 17, "style": "bold"  },
+    "logo_dot": { "family": "Helvetica Neue", "size": 18, "style": "bold"  },
+    "stat":     { "family": "Helvetica Neue", "size": 22, "style": "bold"  },
+    "avatar":   { "family": "Helvetica Neue", "size": 18, "style": "bold"  },
+    "role":     { "family": "Helvetica Neue", "size":  9, "style": "bold"  }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "category": "Terminal",
+  "difficulty": "principiantes",
+  "label": "Borrar archivos y carpetas",
+  "topbar": {
+    "title": "rm",
+    "subtitle": "Eliminación permanente"
+  },
+  "blocks": [
+    {
+      "type": "code",
+      "language": "bash",
+      "content": "rm archivo.txt\nrm -r carpeta/"
+    },
+    {
+      "type": "text",
+      "content": "¡Cuidado! El comando 'rm' borra archivos permanentemente; no van a ninguna papelera de reciclaje.",
+      "color": "accent"
+    },
+    {
+      "type": "section",
+      "title": "Parámetros",
+      "list_type": "bullet",
+      "items": [
+        "rm: Elimina archivos simples.",
+        "-r (recursivo): Obligatorio para borrar carpetas y todo su contenido."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "category": "Terminal",
+  "difficulty": "principiantes",
+  "label": "Permisos básicos",
+  "topbar": {
+    "title": "chmod",
+    "subtitle": "Controla los permisos de lectura, escritura y ejecución"
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "content": "El comando 'chmod' (change mode) se utiliza para definir quién puede leer, escribir o ejecutar un archivo.",
+      "font": "body",
+      "color": "text"
+    },
+    {
+      "type": "code",
+      "language": "bash",
+      "content": "# Dar permisos de ejecución (+x)\nchmod +x script.sh\n\n# Establecer permisos numéricos (rwx: 4+2+1)\nchmod 755 archivo"
+    },
+    {
+      "type": "section",
+      "title": "Guía rápida de permisos",
+      "list_type": "bullet",
+      "items": [
+        "chmod +x: Hace que un archivo (como un script) sea ejecutable.",
+        "755: El propietario tiene todos los permisos (lectura, escritura, ejecución), y los demás solo pueden leer y ejecutar.",
+        "Valores: 4 (lectura), 2 (escritura), 1 (ejecución). La suma de estos valores define el acceso."
+      ]
+    }
+  ]
+}

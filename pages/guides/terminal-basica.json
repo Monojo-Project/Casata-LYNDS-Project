@@ -1,0 +1,123 @@
+{
+  "category": "Terminal",
+  "difficulty": "principiantes",
+  "label": "Guía Simple para usar la Terminal",
+  "topbar": {
+    "title": "Cómo usar la Terminal",
+    "subtitle": "4 comandos básicos para principiantes"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "La Terminal en LyndsOS",
+      "subtitle": "4 comandos que necesitas saber"
+    },
+    {
+      "type": "text",
+      "content": "La terminal parece intimidante, pero con solo 4 comandos puedes hacer muchas cosas. Aquí te explico los más útiles.",
+      "font": "body",
+      "color": "text"
+    },
+    {
+      "type": "card",
+      "title": "Comando 1: ls — Listar archivos",
+      "icon": "ls",
+      "icon_color": "accent",
+      "content": "Muestra todos los archivos y carpetas de la carpeta donde estás."
+    },
+    {
+      "type": "code",
+      "language": "bash",
+      "content": "ls"
+    },
+    {
+      "type": "text",
+      "content": "Con '-la' ves también archivos ocultos y más detalles:",
+      "font": "small",
+      "color": "text_sub"
+    },
+    {
+      "type": "code",
+      "language": "bash",
+      "content": "ls -la"
+    },
+    {
+      "type": "card",
+      "title": "Comando 2: cd — Cambiar carpeta",
+      "icon": "cd",
+      "icon_color": "accent",
+      "content": "Entra en una carpeta. Escribe 'cd' seguido del nombre de la carpeta."
+    },
+    {
+      "type": "code",
+      "language": "bash",
+      "content": "cd Descargas\ncd Documentos"
+    },
+    {
+      "type": "text",
+      "content": "'cd ..' te vuelve a la carpeta anterior. 'cd ~' te lleva a tu carpeta personal.",
+      "font": "small",
+      "color": "text_sub"
+    },
+    {
+      "type": "card",
+      "title": "Comando 3: tree — Ver carpetas en árbol",
+      "icon": "tree",
+      "icon_color": "accent",
+      "content": "Muestra todas las carpetas y archivos en forma de árbol, muy visual."
+    },
+    {
+      "type": "code",
+      "language": "bash",
+      "content": "tree"
+    },
+    {
+      "type": "text",
+      "content": "Si no tienes tree instalado: sudo apt install tree",
+      "font": "small",
+      "color": "text_sub"
+    },
+    {
+      "type": "card",
+      "title": "Comando 4: nano — Editar archivos",
+      "icon": "nano",
+      "icon_color": "accent",
+      "content": "Edita archivos de texto. Nano es fácil: escribes, usas las flechas para moverte y Ctrl+X para salir."
+    },
+    {
+      "type": "code",
+      "language": "bash",
+      "content": "nano mi_archivo.txt"
+    },
+    {
+      "type": "text",
+      "content": "Para guardar: Ctrl+X, luego 'S' para sí, luego Enter. Para salir sin guardar: Ctrl+X, luego 'N'.",
+      "font": "small",
+      "color": "text_sub"
+    },
+    {
+      "type": "section",
+      "title": "Resumen rápido"
+    },
+    {
+      "type": "list",
+      "list_type": "bullet",
+      "items": [
+        "ls — ver archivos en la carpeta actual",
+        "cd — entrar en una carpeta (cd .. para volver)",
+        "tree — ver todo el árbol de carpetas",
+        "nano — editar archivos de texto"
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Consejo"
+    },
+    {
+      "type": "text",
+      "content": "Pulsa la tecla 'Tab' para autocompletar nombres de archivos. La terminal te ayuda a escribir más rápido.",
+      "font": "body",
+      "color": "text"
+    }
+  ]
+}

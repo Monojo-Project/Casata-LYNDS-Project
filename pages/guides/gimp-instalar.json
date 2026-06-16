@@ -1,0 +1,30 @@
+{
+  "category": "Instalación",
+  "difficulty": "medios",
+  "label": "Guía Simple para instalar GIMP",
+  "topbar": {
+    "title": "Cómo instalar GIMP",
+    "subtitle": "Editor de imágenes gratuito"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "Instalar GIMP"
+    },
+    {
+      "type": "code",
+      "language": "bash",
+      "content": "sudo apt install gimp"
+    },
+    {
+      "type": "section",
+      "title": "Usar GIMP",
+      "list_type": "bullet",
+      "items": [
+        "Busca 'GIMP' en el menú",
+        "Abre imágenes para editarlas",
+        "Es como Photoshop pero gratuito"
+      ]
+    }
+  ]
+}

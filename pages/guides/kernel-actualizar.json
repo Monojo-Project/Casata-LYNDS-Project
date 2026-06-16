@@ -1,0 +1,80 @@
+{
+  "category": "Configuración",
+  "difficulty": "medios",
+  "label": "Guía Simple para actualizar el Kernel",
+  "topbar": {
+    "title": "Cómo actualizar el Kernel",
+    "subtitle": "El nucleo del sistema"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "Actualizar el Kernel",
+      "subtitle": "Método fácil con un comando"
+    },
+    {
+      "type": "text",
+      "content": "El kernel es el núcleo del sistema. Actualizarlo puede mejorar compatibilidad con hardware y rendimiento.",
+      "font": "body",
+      "color": "text"
+    },
+    {
+      "type": "card",
+      "title": "Paso único: Actualizar",
+      "icon": "1",
+      "icon_color": "accent",
+      "content": "Abre la terminal y escribe este comando:"
+    },
+    {
+      "type": "code",
+      "language": "bash",
+      "content": "sudo apt update && sudo apt install linux-image-amd64"
+    },
+    {
+      "type": "text",
+      "content": "Escribe tu contraseña cuando te la pida y espera a que termine.",
+      "font": "small",
+      "color": "text_sub"
+    },
+    {
+      "type": "section",
+      "title": "Después de actualizar"
+    },
+    {
+      "type": "list",
+      "list_type": "bullet",
+      "items": [
+        "Reinicia tu ordenador para usar el nuevo kernel",
+        "El sistema guarda los kernels antiguos por si necesitas volver atrás"
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Ver tu versión actual"
+    },
+    {
+      "type": "code",
+      "language": "bash",
+      "content": "uname -r"
+    },
+    {
+      "type": "text",
+      "content": "Este comando muestra la versión del kernel que estás usando ahora.",
+      "font": "small",
+      "color": "text_sub"
+    },
+    {
+      "type": "section",
+      "title": "Nota importante"
+    },
+    {
+      "type": "list",
+      "list_type": "check",
+      "items": [
+        "Actualiza el kernel solo si necesitas soporte para hardware nuevo",
+        "Haz una copia de seguridad importante antes de actualizar",
+        "Si algo va mal, puedes arrancar con el kernel anterior desde GRUB"
+      ]
+    }
+  ]
+}

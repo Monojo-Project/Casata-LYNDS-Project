@@ -1,0 +1,66 @@
+{
+  "category": "Instalación",
+  "difficulty": "principiantes",
+  "label": "Guía Simple para instalar Tor Browser",
+  "topbar": {
+    "title": "Cómo instalar Tor Browser",
+    "subtitle": "Para principiantes en LyndsOS"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "Instalar Tor Browser",
+      "subtitle": "Download y extraer"
+    },
+    {
+      "type": "text",
+      "content": "Tor Browser se instala descargando el paquete oficial y ejecutándolo.",
+      "font": "body",
+      "color": "text"
+    },
+    {
+      "type": "card",
+      "title": "Paso 1: Descargar Tor Browser",
+      "icon": "1",
+      "icon_color": "accent",
+      "content": "Abre Chromium, entra en torproject.org/download y haz clic en 'Download Tor Browser' para Linux."
+    },
+    {
+      "type": "card",
+      "title": "Paso 2: Extraer el archivo",
+      "icon": "2",
+      "icon_color": "accent",
+      "content": "Ve a tu carpeta 'Descargas', haz clic derecho en el archivo .tar.xz y elige 'Extraer aquí'."
+    },
+    {
+      "type": "card",
+      "title": "Paso 3: Ejecutar",
+      "icon": "3",
+      "icon_color": "accent",
+      "content": "Entra en la carpeta extraída, haz doble clic en 'start-tor-browser.desktop' y confirma que quieres ejecutarlo."
+    },
+    {
+      "type": "section",
+      "title": "Usar Tor Browser"
+    },
+    {
+      "type": "list",
+      "list_type": "bullet",
+      "items": [
+        "Cada vez que quieras usarlo, entra en la carpeta y ejecuta start-tor-browser.desktop",
+        "Puedes crear un acceso directo en el menú si lo usas mucho",
+        "Tor Browser conecta automáticamente a la red Tor cuando se abre"
+      ]
+    },
+    {
+      "type": "section",
+      "title": "Nota importante"
+    },
+    {
+      "type": "text",
+      "content": "Tor Browser te permite navegar de forma anónima, encriptando tu IP, por lo que las busquedas serán más lentas. No necesitas instalarlo como un programa normal, solo ejecútalo cuando lo uses.",
+      "font": "small",
+      "color": "text_sub"
+    }
+  ]
+}

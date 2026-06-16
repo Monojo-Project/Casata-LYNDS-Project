@@ -1,0 +1,64 @@
+{
+  "topbar": {
+    "title": "LyndsLite",
+    "subtitle": "Entorno ligero integrado dentro de LyndsHub"
+  },
+  "sections": [
+    {
+      "title": "¿Qué es LyndsLite?",
+      "items": [
+        {
+          "title": "Definición",
+          "text": "Es un sistema operativo basado en Debian 13 y utiliza el entorno de escritorio LXQt."
+        },
+        {
+          "title": "Objetivo",
+          "text": "Fue como un entrenamiento para posteriormente crear LyndsOS, y vaya que si sirvió el entrenamiento."
+        }
+      ]
+    },
+    {
+      "title": "Características",
+      "items": [
+        {
+          "title": "Ligero",
+          "text": "Requiere de 750 MB de RAM para arrancar y pesa 3 GB el sistema operativo completo."
+        },
+        {
+          "title": "Portable",
+          "text": "Al ser tan ligero, puedes llevarlo en un pendrive de 4 GB y arrancarlo en cualquier PC."
+        },
+        {
+          "title": "Instalación",
+          "text": "A diferencia de otros sistemas operativos, este no se instala con un ISO, sino con un TAR. El problema de esto es que la instalación tiene que ser manual."
+        }
+      ]
+    },
+    {
+      "title": "Historia",
+      "items": [
+        {
+          "title": "Pasado",
+          "text": "Lo cree en unas vacaciones, con un USB 2.0 genérico desde USB Live de Kubuntu 25.10 haciendo un debootstrap con cobertura H+ en el monte."
+        },
+        {
+          "title": "Presente",
+          "text": "Se utiliza para desarrollar LyndsOS, aprovechando su optimización y ligereza."
+        },
+        {
+          "title": "Futuro",
+          "text": "Podríamos crear un ISO de LyndsLite..."
+        }
+      ]
+    },
+    {
+      "title": "Estado del proyecto",
+      "items": [
+        {
+          "title": "Versión",
+          "text": "1.0.2, aún es inestable y tiene problemas con los permisos."
+        }
+      ]
+    }
+  ]
+}

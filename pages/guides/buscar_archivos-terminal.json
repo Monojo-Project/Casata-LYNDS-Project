@@ -1,0 +1,33 @@
+{
+  "category": "Terminal",
+  "difficulty": "principiantes",
+  "label": "Buscar archivos",
+  "topbar": {
+    "title": "find",
+    "subtitle": "Localiza archivos y directorios rápidamente"
+  },
+  "blocks": [
+    {
+      "type": "text",
+      "content": "El comando 'find' busca archivos dentro de una jerarquía de directorios según criterios específicos.",
+      "font": "body",
+      "color": "text"
+    },
+    {
+      "type": "code",
+      "language": "bash",
+      "content": "# Buscar archivos .txt en la carpeta actual\nfind . -name '*.txt'\n\n# Buscar archivos (-type f) de tipo imagen en el home\nfind /home -type f -name '*.jpg'"
+    },
+    {
+      "type": "section",
+      "title": "Desglose de parámetros",
+      "list_type": "bullet",
+      "items": [
+        ". : Indica a find que busque en el directorio actual.",
+        "-name: Define el nombre o patrón a buscar (ej. '*.txt' busca todo lo que termine en .txt).",
+        "-type f: Limita la búsqueda solo a archivos (ignora carpetas).",
+        "/home: Define la ruta donde comenzará la búsqueda."
+      ]
+    }
+  ]
+}

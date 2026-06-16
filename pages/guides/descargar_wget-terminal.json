@@ -1,0 +1,25 @@
+{
+  "category": "Terminal",
+  "difficulty": "principiantes",
+  "label": "Descargar con wget",
+  "topbar": {
+    "title": "wget",
+    "subtitle": "Descargador de archivos no interactivo"
+  },
+  "blocks": [
+    {
+      "type": "code",
+      "language": "bash",
+      "content": "wget https://ejemplo.com/archivo.zip"
+    },
+    {
+      "type": "section",
+      "title": "Explicación",
+      "list_type": "bullet",
+      "items": [
+        "wget: Es una herramienta robusta diseñada para descargar archivos de la web.",
+        "A diferencia de curl, wget es muy útil para descargar sitios web completos o archivos grandes de forma recursiva y automática."
+      ]
+    }
+  ]
+}

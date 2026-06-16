@@ -1,0 +1,62 @@
+{
+  "category": "Instalación",
+  "difficulty": "principiantes",
+  "label": "Guía Simple para instalar Chrome",
+  "topbar": {
+    "title": "Cómo instalar Google Chrome",
+    "subtitle": "Para principiantes en LyndsOS"
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "title": "Instalar Google Chrome",
+      "subtitle": "Método fácil sin terminal"
+    },
+    {
+      "type": "text",
+      "content": "Estos pasos son para instalar Google Chrome en LyndsOS sin usar la terminal.",
+      "font": "body",
+      "color": "text"
+    },
+    {
+      "type": "card",
+      "title": "Paso 1: Descargar Chrome",
+      "icon": "1",
+      "icon_color": "accent",
+      "content": "Abre Chromium (tu navegador), entra en google.com/chrome y haz clic en 'Descargar Chrome'."
+    },
+    {
+      "type": "text",
+      "content": "Elige 'Linux' y luego selecciona el paquete .deb para 64 bits.",
+      "font": "small",
+      "color": "text_sub"
+    },
+    {
+      "type": "card",
+      "title": "Paso 2: Abrir el archivo",
+      "icon": "2",
+      "icon_color": "accent",
+      "content": "Ve a tu carpeta 'Descargas', haz doble clic en el archivo 'chrome.deb' y elige abrirlo con Discover."
+    },
+    {
+      "type": "card",
+      "title": "Paso 3: Instalar",
+      "icon": "3",
+      "icon_color": "accent",
+      "content": "En Discover, haz clic en 'Instalar' y espera a que termine. Si te pide tu contraseña, escríbela bien."
+    },
+    {
+      "type": "section",
+      "title": "Usar Chrome"
+    },
+    {
+      "type": "list",
+      "list_type": "bullet",
+      "items": [
+        "Busca 'Google Chrome' en el menú de aplicaciones",
+        "Haz clic para abrirlo",
+        "Inicia sesión con tu cuenta de Google (opcional)"
+      ]
+    }
+  ]
+}
