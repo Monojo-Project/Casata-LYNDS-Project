@@ -1,0 +1,8 @@
+{
+  "name": "lynds-wallpapers-installer",
+  "version": "1.0",
+  "dependencies": ["python3", "python3-tk", "python3-pil"],
+  "size": "463,6 KiB",
+  "description": "Instalador de fondos de pantalla sin copyright estricto, ¡haz lo que quieras con ellos!.",
+  "usage": "Ejecuta lynds-wallpapers-installer o abre la aplicación y se abrirá la ventana de Lynds Wallpapers Installer."
+}
