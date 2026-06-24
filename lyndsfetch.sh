@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Desarrollado por David Baña Szymaniak. Licencia GPL v3, LYNDS Project
+
 # Ruta del archivo de configuración
 CONFIG_FILE="$HOME/.config/lyndsfetch/config.json"
 
