@@ -15,7 +15,7 @@
     {
       "file": "icon.png",
       "dest": "/usr/share/icons/LyndsOS",
-      "name": "lynds-wallpapers.png"
+      "name": "lynds-wallpapers-go.png"
     },
     {
       "file": "lynds_wallpapers_installer_go.desktop",
